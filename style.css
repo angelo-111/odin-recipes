@@ -6,19 +6,27 @@ body {
     border: 20px;
 }
 
-h1 {
+h1, h3 {
     text-align: center;
     border: 4px;
-    background-color: paleturquoise;
+    background-color: rgb(166, 231, 208);
     padding: 20px;
 }
 
-ul {
-    background-color:antiquewhite;
+ul, ol, p {
+    background-color:rgb(214, 248, 214);
     padding: 20px;
 }
 
 li {
     padding: 4px;
     margin: 10px;
+}
+
+p {
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
 }
